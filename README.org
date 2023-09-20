@@ -1,0 +1,19 @@
+#TITLE: mkociso
+* pre-reqs
+** install poetry
+The [[https://python-poetry.org/docs/#installation][poetry installation docs recommend]] :
+#+begin_src tmux :session ":poetry"
+curl -sSL https://install.python-poetry.org | python3 -
+#+end_src
+** poetry install reqs
+#+begin_src tmux :session ":poetry"
+poetry install
+#+end_src
+** poetry build env
+#+begin_src tmux :session ":poetry"
+poetry build
+#+end_src
+** poetry run process
+#+begin_src tmux :session ":poetry"
+poetry run
+#+end_src
